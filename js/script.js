@@ -26,6 +26,15 @@ const sum = chooseANumber + randomN
 console.log('sum:' + sum)
 
 // funzione per stabilire se somma è pari o dispari
+function evenOrOdd (sum){
+    if (sum % 2 === 0){
+        return 'even';
+    }
+    else {
+        return 'odd';
+    }
+}
+console.log(evenOrOdd());
 
 // dichiaro vincitore
 
