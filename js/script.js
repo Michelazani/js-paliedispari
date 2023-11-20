@@ -37,16 +37,23 @@ function evenOrOdd (sum){
 console.log(evenOrOdd(sum));
 
 // dichiaro vincitore
-// se il valore del prompt utente è = a evenOrOdd(sum), alert : hai vinto
+// se il prompt utente è = a evenOrOdd(sum), console.log : hai vinto, altrimenti hai lost
 if (chooseEvenOrOdd === evenOrOdd(sum)){
     console.log ('you won');
 }
 else {
-    console.log('you lost')
+    console.log('you lost');
 }
 
 
-/*Palidroma:
+/*Palindroma:
 Chiedere all’utente di inserire una parola
 Creare una funzione per capire se la parola inserita è palindroma
 E' vietato usare split(), reverse() e simili.*/
+
+const typeAWord = prompt('type a word');
+
+function isWordPalindrome = (typeAWord){
+    // if la word è palindroma>> true, se non lo è >> false
+     
+}
