@@ -7,17 +7,27 @@ Dichiariamo chi ha vinto. */
 
 // prompt per chiedere numero a utente
 
+const chooseEvenOrOdd = prompt ('even or odd?')
 const chooseANumber = parseInt(prompt('type a number between 1 and 5'));
-
+let numberOne = 1;
+let numberTwo = 5; 
+const randomN = randomNumber (numberOne, numberTwo)
 /*creo funzione per numero random del pc*/
 function randomNumber(numberOne, numberTwo){
-    return chooseANumber , Math.floor(Math.random () * (numberTwo - numberOne +1) + numberOne);
+    return Math.floor(Math.random () * (numberTwo - numberOne +1) + numberOne);
 }
-// visulizzo numero random e numero utente  
-console.log(chooseANumber); 
-console.log(randomNumber (1,5));
+// visulizzo even or odd, numero utente e numero random  
+console.log('even or odd?:' + chooseEvenOrOdd);
+console.log('numero utente:' + chooseANumber); 
+console.log('numero pc:' + randomN);
 
+// somma dei due numeri
+const sum = chooseANumber + randomN
+console.log('sum:' + sum)
 
+// funzione per stabilire se somma è pari o dispari
+
+// dichiaro vincitore
 
 
 /*Palidroma:
