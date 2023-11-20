@@ -34,9 +34,16 @@ function evenOrOdd (sum){
         return 'odd';
     }
 }
-console.log(evenOrOdd());
+console.log(evenOrOdd(sum));
 
 // dichiaro vincitore
+// se il valore del prompt utente è = a evenOrOdd(sum), alert : hai vinto
+if (chooseEvenOrOdd === evenOrOdd(sum)){
+    console.log ('you won');
+}
+else {
+    console.log('you lost')
+}
 
 
 /*Palidroma:
